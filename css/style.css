@@ -1,5 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
+/*S E C O N D   P A R T*/
+
+
+
+
+
+
+
+/*T H I R D  S E C T I O N*/
+.third__part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section__title{
+    font-size: 45px;
+    font-family: "Lato";
+    color: #3564FC;
+    text-align: center;
+}
+
+.section__title_works {
+    margin: 4rem;
+}
+
+.section_works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.section_works img{
+    display: block;
+    flex-basis: 31%;
+    margin-bottom: 1.5rem;
+   
+}
+
+.section__clients {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: #f1f8ff;
+    padding: 2rem;
+}
+
+.section__clients__lable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    height: 20px;
+    margin: 2rem auto;
+}
+
+.section__clients__lable img {
+    height: 50px;
+}
+
+.section__title-cliets {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*F O O T E R + H E A D E R*/
+
 .header__container {
     max-width: 800px;
     margin: 0 auto;
@@ -173,83 +246,9 @@
     margin: 0 auto;
 }
 
-
-/*S E C O N D   P A R T*/
-
-
-
-
-
-
-
-/*T H I R D  S E C T I O N*/
-.third__part {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.section__title{
-    font-size: 45px;
-    font-family: "Lato";
-    color: #3564FC;
-    text-align: center;
-}
-
-.section__title_works {
-    margin: 4rem;
-}
-
-.section_works {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.section_works img{
-    display: block;
-    flex-basis: 31%;
-    margin-bottom: 1.5rem;
-   
-}
-
-.section__clients {
-    display: block;
-    width: 100%;
-    height: 200px;
-    background-color: #f1f8ff;
-    padding: 2rem;
-}
-
-.section__clients__lable {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 80%;
-    height: 20px;
-    margin: 2rem auto;
-}
-
-.section__clients__lable img {
-    height: 50px;
-}
-
-.section__title-cliets {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-/*F O O T E R*/
-
 .footer {
     background-color: #3564FC;
-    background-image: url(img/bgpattern.png),
+    background-image: url(../images/bgpattern.png),
     linear-gradient(16deg, rgba(54,149,255,0.8) 20%, rgba(53,100,252,0.8) 100%);
     background-repeat: no-repeat;
     background-position: 64% 50%;
@@ -273,7 +272,7 @@
     font-weight: 700;
 }
 
-.hire-link__footer {
+.hire-link_footer {
     margin: 0 0 0 25px;
 }
 
@@ -281,7 +280,120 @@
     .header__title {
         font-size: 33px;
     }
+
+    .header__subtitle {
+        font-size: 14px;
+        max-width: 600px;
+        margin: 25px auto 0 auto;
+    }
+
+    .footer__container {
+        max-width: 640px;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .header__title {
+        font-size: 33px;
+        max-width: 600px;
+        margin: 40px auto 0 auto;
+    }
 }
+
+@media (max-width: 768px) {
+    .header__cookies-wrapper {
+        max-width: 500px;
+        font-size: 14px;
+    }
+
+    .header__title {
+        font-size: 24px;
+        line-height: 30px;
+        max-width: 470px;
+        margin: 20px auto 0 auto;
+    }
+
+    .header__subtitle {
+        font-size: 13px;
+        line-height: 22px;
+        max-width: 505px;
+    }
+
+    .hire-link {
+        padding: 11px 50px;
+        font-size: 13px;
+        margin: 60px 0 88px 0;
+    }
+
+    .footer__container {
+        max-width: 510px;
+        font-size: 20px;
+    }
+
+    .hire-link_footer {
+        margin: 0;
+    }
+
+    .footer__container {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__cookies-wrapper {
+        max-width: 293px;
+        font-size: 8px;
+    }
+
+    .cookies-button {
+        padding: 6px 30px;
+        font-size: 8px;
+        margin: 0 0 0 7px;
+    }
+
+    .header__title {
+        font-size: 13px;
+        max-width: 262px;
+        line-height: 20px;
+    }
+
+    .header__subtitle {
+        font-size: 7px;
+        line-height: 17px;
+        max-width: 257px;
+    }
+
+    .footer__container {
+        max-width: 300px;
+        font-size: 11px;
+    }
+
+    .hire-link {
+        padding: 6px 16px;
+        font-size: 8px;
+        margin: 40px 0 50px 0;
+    }
+
+    .footer__container {
+        max-width: 265px;
+        font-size: 11px;
+    }
+
+    .header__avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header__container {
+        padding: 60px 0 25px 0;
+    }
+
+    .hire-link_footer {
+        margin: 0;
+    }
+}
+
+
 
 
 
