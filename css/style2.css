@@ -96,37 +96,37 @@ body {
 
 
 .expert-img-1 {
-    background-image: url("../icons/mobile-design.svg");
+    background-image: url("/icons/mobile-design.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .expert-img-2 {
-    background-image: url("../icons/web-design.svg");
+    background-image: url("/icons/web-design.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .expert-img-3 {
-    background-image: url("../icons/web-development.svg");
+    background-image: url("/icons/web-development.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .expert-img-4 {
-    background-image: url("../icons/product-design.svg");
+    background-image: url("/icons/product-design.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .expert-img-5 {
-    background-image: url("../icons/ux-ui.svg");
+    background-image: url("/icons/ux-ui.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .expert-img-6 {
-    background-image: url("../icons/animations.svg");
+    background-image: url("/icons/animations.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -199,18 +199,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
     height: 20px;
     margin: 2rem auto;
-}
-
-.section__clients__lable img {
-    height: 50px;
-}
-
-.section__title-cliets {
-    margin: 0;
-    padding: 0;
 }
 
 .sumsung {
@@ -229,6 +221,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+
 
 
 
@@ -438,260 +433,142 @@ body {
 }
 
 @media (max-width: 992px) { 
-    .header__title {
-        font-size: 33px;
-    }
+.header__title {
+    font-size: 33px;
+}
 
-    .header__subtitle {
-        font-size: 14px;
-        max-width: 600px;
-        margin: 25px auto 0 auto;
-    }
+.header__subtitle {
+    font-size: 14px;
+    max-width: 600px;
+    margin: 25px auto 0 auto;
+}
 
-    .footer__container {
-        max-width: 640px;
-        font-size: 24px;
-        color: #fff;
-    }
+.footer__container {
+    max-width: 640px;
+    font-size: 24px;
+    color: #fff;
+}
 
-    .header__title {
-        font-size: 33px;
-        max-width: 600px;
-        margin: 40px auto 0 auto;
-    }
+.header__title {
+    font-size: 33px;
+    max-width: 600px;
+    margin: 40px auto 0 auto;
+}
 
-    .expert-container {
-        max-width: 640px;
-    }
+/*-------------------------*/
+.section__clients__lable {
+    width: 80%;
+    height: 15px;
+    margin: 1.5rem auto;
+}    
 
-    .expert-item {
-        width: 30%;
-    }
-
-    /* gena */
-
-    .section__clients__lable {
-        width: 80%;
-        height: 15px;
-        margin: 1.5rem auto;
-    }    
+.sumsung {
+    height: 15px;
+}
     
-    .sumsung {
-        height: 15px;
-    }
-        
-    .ibm, .google {
-        height: 40px;
-    }
-        
-    .msft {
-        height: 50px;
-    }  
+.ibm, .google {
+    height: 40px;
+}
+    
+.msft {
+    height: 50px;
+}  
 }
 
 @media (max-width: 768px) {
-    .header__cookies-wrapper {
-        max-width: 500px;
-        font-size: 14px;
-    }
-
-    .header__title {
-        font-size: 24px;
-        line-height: 30px;
-        max-width: 470px;
-        margin: 20px auto 0 auto;
-    }
-
-    .header__subtitle {
-        font-size: 13px;
-        line-height: 22px;
-        max-width: 505px;
-    }
-
-    .hire-link {
-        padding: 11px 50px;
-        font-size: 13px;
-        margin: 60px 0 88px 0;
-    }
-
-    .expert-container {
-        max-width: 500px;
-    }
-
-    .expert-item {
-        width: 50%;
-    }
-
-    .footer__container {
-        max-width: 510px;
-        font-size: 20px;
-    }
-
-    .hire-link_footer {
-        margin: 0;
-    }
-
-    .footer__container {
-        padding: 30px 0;
-    }
-
-    /* gena */
-
-    .section__title{
-        font-size: 35px;
-        margin-top: 15px;
-    }
-    
-    .section__clients__lable {
-        width: 80%;
-        height: 15px;
-        margin: 1.5rem auto;
-    }    
-    
-    .sumsung {
-        height: 15px;
-    }
-        
-    .ibm, .google {
-        height: 25px;
-    }
-        
-    .msft {
-        height: 30px;
-    }    
-
-    .section__clients__lable img {
-        height: 40px;
-    }
+.header__cookies-wrapper {
+    max-width: 500px;
+    font-size: 14px;
 }
-/* 768 */
 
-@media (max-width: 576px) {
-    .header__cookies-wrapper {
-        max-width: 293px;
-        font-size: 8px;
-    }
+.header__title {
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 470px;
+    margin: 20px auto 0 auto;
+}
 
-    .cookies-button {
-        padding: 6px 30px;
-        font-size: 8px;
-        margin: 0 0 0 7px;
-    }
-
-    .header__title {
-        font-size: 13px;
-        max-width: 262px;
-        line-height: 20px;
-    }
-
-    .header__subtitle {
-        font-size: 7px;
-        line-height: 17px;
-        max-width: 257px;
-    }
-
-    .expert-container {
-        max-width: 293px;
-    }
-
-    .expert-item {
-        width: 100%;
-    }
-
-    .footer__container {
-        max-width: 300px;
-        font-size: 11px;
-    }
-
-    .hire-link {
-        padding: 6px 16px;
-        font-size: 8px;
-        margin: 40px 0 50px 0;
-    }
-
-      .about-title {
-    font-size: 16px;
-    line-height: 17px;
-    margin: 20px 0;
-    }
-
-    .about-text {
-    font-size: 7px;
-    line-height: 17px;
-    }
-
-    .expert-title {
-    font-size: 16px;
-    line-height: 17px;
-    }
-
-    .expert-text {
-    font-size: 7px;
-    line-height: 17px;
-    margin: 0 0 40px 0;
-    }
-
-    .expert-text-title {
+.header__subtitle {
     font-size: 13px;
-    line-height: 17px;
-    }
+    line-height: 22px;
+    max-width: 505px;
+}
 
-    .footer__container {
-        max-width: 265px;
-        font-size: 11px;
-    }
+.hire-link {
+    padding: 11px 50px;
+    font-size: 13px;
+    margin: 60px 0 88px 0;
+}
 
-    .header__avatar {
-        width: 100px;
-        height: 100px;
-    }
+.footer__container {
+    max-width: 510px;
+    font-size: 20px;
+ }
 
-    .header__container {
-        padding: 60px 0 25px 0;
-    }
+.hire-link_footer {
+    margin: 0;
+}
 
-    .hire-link_footer {
-        margin: 0;
-    }
+.footer__container {
+    padding: 30px 0;
+}
+/*-------------------------*/
 
-    /* gena */
-    .section__clients{
-        padding: 10px;
-        height: 150px;
-    }
+.section__title{
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.section__clients__lable {
+    width: 80%;
+    height: 15px;
+    margin: 1.5rem auto;
+}    
+
+.sumsung {
+    height: 15px;
+}
     
-    .section__title{
-        font-size: 25px;
-    }
+.ibm, .google {
+    height: 25px;
+}
     
-    .section__clients__lable {
-        width: 90%;
-        margin: 1rem auto;
-    }    
-        
-    .sumsung {
-        height: 10px;
-        margin: 5px;
-    }
-            
-    .ibm, .google {
-        height: 20px;
-        margin: 5px;
-    }
-            
-    .msft {
-        height: 25px;
-        margin: 5px;
-    }  
-
-    .section__clients__lable img {
-        height: 30px;
-        width: 60px;
-    }
+.msft {
+    height: 30px;
+}    
 }
 
 
+@media (max-width: 576px){
 
+.section__clients{
+    padding: 10px;
+    height: 150px;
+}
 
+.section__title{
+    font-size: 25px;
+}
+
+.section__clients__lable {
+    width: 90%;
+    margin: 1rem auto;
+}    
+    
+.sumsung {
+    height: 10px;
+    margin: 5px;
+}
+        
+.ibm, .google {
+    height: 20px;
+    margin: 5px;
+}
+        
+.msft {
+    height: 25px;
+    margin: 5px;
+}  
+} 
 
     
